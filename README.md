@@ -44,8 +44,10 @@ pressure_total_seconds{controller="memory",id="/system.slice/systemd-journald.se
 
 ## Usage
 
+* `--path.cgroup` specifies an alternative path to /sys/fs/cgroup directory.
 * `--metrics.disable-avg` disables reporting of averages.
 * `--metrics.silence-zeros` silences reporting of zero values.
+* `--web.listen-address` address on which to expose metrics and web interface (format ipaddress:port).
 
 ## License
 
